@@ -121,16 +121,23 @@ export default function ContactForm() {
       </nav>
 
       {}
-      <section id="inicio"className="relative bg-cover bg-center h-screen" style={{ backgroundImage: "url('img/img1.jpg')" }}>
-        <div className="absolute inset-0 bg-black opacity-50"></div>
-        <div className="relative z-10 flex items-center h-full">
-          <div className="max-w-2xl mx-5 px-6 text-left text-white">
-            <h1 className="text-5xl font-bold mb-6">Transformando tu Presencia Digitalmente.</h1>
-            <p className="text-2xl mb-6">En TecnoArte-Web nos especializamos en ofrecer soluciones creativas en diseño y desarrollo web para potenciar tu negocio en línea.</p>
-            <button  onClick={abrir} className="mb-5 px-5 py-3 bg-orange-500 hover:bg-orange-600 text-white rounded-lg">Solicitar Información</button>
-          </div>
-        </div>
-      </section>
+      <section id="inicio" className="relative bg-cover bg-center h-screen" style={{ backgroundImage: "url('img/img1.jpg')" }}>
+  <div className="absolute inset-0 bg-black opacity-50"></div>
+  <div className="relative z-10 flex items-center h-full">
+    <div className="max-w-2xl mx-5 px-6 text-left text-white">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
+        Transformando tu Presencia Digitalmente.
+      </h1>
+      <p className="text-lg sm:text-xl md:text-2xl mb-6">
+        En TecnoArte-Web nos especializamos en ofrecer soluciones creativas en diseño y desarrollo web para potenciar tu negocio en línea.
+      </p>
+      <button onClick={abrir} className="mb-5 px-5 py-3 bg-orange-500 hover:bg-orange-600 text-white rounded-lg">
+        Solicitar Información
+      </button>
+    </div>
+  </div>
+</section>
+
 
       {}
       <section id="nosotros" className="bg-black py-16">
@@ -146,7 +153,7 @@ export default function ContactForm() {
       </section>
 
       {}
-      <section id="experiencia" className="bg-gradient-to-r from-blue-700 to-blue-900 py-16">
+      <section id="experiencia" className="bg-[#0a1a2b] py-16">
         <div className="container mx-auto text-center mb-12">
           <h2 className="text-3xl font-bold text-white">Nuestra Experiencia</h2>
         </div>
@@ -261,7 +268,7 @@ export default function ContactForm() {
         </div>
       </section>
 
-      <footer className="bg-blue-900 text-white py-8">
+  <footer className="bg-[#0a1a2b] text-white py-8">
   <div className="container mx-auto flex flex-col items-center">
     <div className="flex flex-wrap justify-center gap-8 mb-6">
       {}
